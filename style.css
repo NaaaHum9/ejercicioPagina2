@@ -1,0 +1,22 @@
+body{
+    background-color: gray;
+}
+
+.titulos{
+    text-align: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+div p{
+    text-align: justify;
+    margin-left: 23%;
+}
+
+.ImagenFormulario{
+    padding-left: 20px;
+    width: 120px;
+}
