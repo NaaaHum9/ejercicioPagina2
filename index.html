@@ -16,22 +16,17 @@
     </header>
 
     <main>
-        <form action="">
-            <label for="">Nombre</label>
-            <input type="text">
-
-        </form>
-        <p>Formulario de Registro de Usuario:
-
-            Nombre
-            Apellido
-            Dirección de correo electrónico
-            Contraseña
-            Confirmación de contraseña
-            Fecha de nacimiento
-            Género
-            País
-            Preferencias de comunicación (por ejemplo, recibir boletines informativos)</p>
+        <section class="registro-usuario">
+            <p class="titulos">Formulario de Registro de Usuario:</p>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese los nombres">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese los apellidos">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo electronico">
+            <input class="controls" type="password" name="password" id="password" placeholder="Ingrese la contarseña">
+            <input  class="controls" type="password" name="confirm-password" id="password" placeholder="Confirmar contraseña">
+            <input class="controls" type="date" name="birth" id="birth" placeholder="Ingrese su dia de nacimiento">
+            <input  class="controls" type="text" name="country" id="country" placeholder="Ingrese su pais">
+            <button class="boton-datos">Enviar datos</button>
+        </section>
     </main>
 
     <footer>

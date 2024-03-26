@@ -1,9 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: gray;
+    width: 100%;
+    background-image: url('/Imagenes/verde2.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat;/* Evita la repetición de la imagen */
 }
 
 .titulos{
     text-align: center;
+    font-family: 'calibri';
+    margin-bottom: 20px;
+    color: white;
 }
 
 div{
@@ -14,9 +27,42 @@ div{
 div p{
     text-align: justify;
     margin-left: 23%;
+    color: white;
 }
 
 .ImagenFormulario{
     padding-left: 20px;
     width: 120px;
+}
+
+.registro-usuario{
+    width: 50%;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 10px 10px 10px black;
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.boton-datos{
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin: 16px auto;
+    font-size: 16px;
 }
